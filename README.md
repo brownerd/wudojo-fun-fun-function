@@ -37,8 +37,8 @@ You can change which file opens in the `js` directory by adding a number to the 
 
 ## Data
 
-Every time you run `npm run start` the `data.js` file will be updated with an array of the .js file name in the `js` directory, and exported as a module. So the number you specify in the start command refers to the index of the file you want to run.
+Every time you run `npm run start 1` the `file-list.js` file will be updated with an array of the .js file name in the `js` directory, and exported as a module. So the number you specify in the start command refers to the index of the file you want to run.
 
 ## LINT
 
-Wudojo uses ESLINT because it's fucking awesome. It is configured to use ESLINT's [standard](https://github.com/feross/eslint-config-standard) configuration.
+Wudojo uses ESLINT. It is configured to use ESLINT's [standard](https://github.com/feross/eslint-config-standard) configuration.
