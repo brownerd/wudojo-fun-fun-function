@@ -60,9 +60,9 @@ module.exports = {
       }
     ]
   },
-  node: {
-    fs: "empty"
-  },
+  // node: {
+  //   fs: "empty"
+  // },
   plugins: [
     // Serve bundle from localhost:8080
     // Launch in canary automatically
