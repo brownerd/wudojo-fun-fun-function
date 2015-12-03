@@ -51,8 +51,17 @@ module.exports = {
         test: /\.js$/,
         loader: "eslint-loader",
         exclude: /node_modules/
+      },
+      {
+        test: /\.txt$/,
+        loader: "raw-loader",
+        exclude: /node_modules/
+        // include: /data/
       }
     ]
+  },
+  node: {
+    fs: "empty"
   },
   plugins: [
     // Serve bundle from localhost:8080

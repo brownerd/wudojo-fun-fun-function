@@ -26,6 +26,7 @@
     "html-webpack-plugin": "1.7.0",
     "lodash": "3.10.1",
     "open-browser-webpack-plugin": "0.0.1",
+    "raw-loader": "0.5.1",
     "style-loader": "0.13.0",
     "url-loader": "0.5.7",
     "var": "0.1.3",
